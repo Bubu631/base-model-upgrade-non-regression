@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "name": "release",
+  "description": "Create the four standard local release assets; no network or publication",
+  "historical_status": "New execution convenience profile; original runs used the unchanged scripts and recorded manifests, not this JSON.",
+  "commands": [
+    [
+      "{python}",
+      "experiments/package_release.py",
+      "--output",
+      "dist/v1.0.0"
+    ]
+  ]
+}

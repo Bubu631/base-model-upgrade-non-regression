@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "name": "digits",
+  "description": "Retrain both fixed digits paths in dependency order and regenerate reports; overwrites their outputs",
+  "historical_status": "New execution convenience profile; original runs used the unchanged scripts and recorded manifests, not this JSON.",
+  "commands": [
+    [
+      "{python}",
+      "experiments/digits_upgrade.py"
+    ],
+    [
+      "{python}",
+      "experiments/plot_digits.py"
+    ],
+    [
+      "{python}",
+      "experiments/digits_balanced.py"
+    ],
+    [
+      "{python}",
+      "experiments/summarize_digits_paths.py"
+    ]
+  ]
+}

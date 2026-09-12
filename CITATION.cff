@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript when using this research or its artifacts."
+title: "Certifying Model Upgrades with Slice-Wise Non-Regression and Incumbent Fallback"
+version: 1.0.0
+authors:
+  - family-names: Zhang
+    given-names: Shengwei
+    affiliation: University of Pennsylvania
+  - family-names: Wu
+    given-names: Tao
+    affiliation: Alibaba International Digital Commerce
+  - family-names: Qian
+    given-names: Fei
+    affiliation: Alibaba International Digital Commerce
+repository-code: "https://github.com/Bubu631/base-model-upgrade-non-regression"
+url: "https://github.com/Bubu631/base-model-upgrade-non-regression"
+abstract: "A reproducible procedure for model-upgrade selection with independent slice-wise non-inferiority certification and exact incumbent fallback, evaluated using bounded-score simulations and small public digits experiments."
+keywords:
+  - model upgrades
+  - non-inferiority
+  - slice-wise evaluation
+  - model merging
+  - reproducibility

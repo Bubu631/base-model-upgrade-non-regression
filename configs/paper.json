@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "name": "paper",
+  "description": "Compile the retained manuscript using its existing figures and results",
+  "historical_status": "New execution convenience profile; original runs used the unchanged scripts and recorded manifests, not this JSON.",
+  "commands": [
+    [
+      "latexmk",
+      "-cd",
+      "-pdf",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "papers/base_upgrade/main.tex"
+    ]
+  ]
+}

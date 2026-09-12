@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "name": "verify",
+  "description": "Offline validation without changing delivered results",
+  "historical_status": "New execution convenience profile; original runs used the unchanged scripts and recorded manifests, not this JSON.",
+  "commands": [
+    [
+      "{python}",
+      "experiments/verify_artifact_integrity.py"
+    ],
+    [
+      "{python}",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    [
+      "{python}",
+      "experiments/verify_digits_saved.py"
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "name": "digits_selective_scratch",
+  "description": "Run the fixed selective path into a new directory using its existing --output option",
+  "historical_status": "New execution convenience profile; original runs used the unchanged scripts and recorded manifests, not this JSON.",
+  "commands": [
+    [
+      "{python}",
+      "experiments/digits_upgrade.py",
+      "--output",
+      "runs/digits_selective"
+    ]
+  ]
+}

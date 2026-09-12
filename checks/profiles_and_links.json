@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "profiles": [
+    {
+      "profile": "configs/core.json",
+      "dry_run": "passed"
+    },
+    {
+      "profile": "configs/digits.json",
+      "dry_run": "passed"
+    },
+    {
+      "profile": "configs/digits_balanced_scratch.json",
+      "dry_run": "passed"
+    },
+    {
+      "profile": "configs/digits_selective_scratch.json",
+      "dry_run": "passed"
+    },
+    {
+      "profile": "configs/paper.json",
+      "dry_run": "passed"
+    },
+    {
+      "profile": "configs/release.json",
+      "dry_run": "passed"
+    },
+    {
+      "profile": "configs/verify.json",
+      "dry_run": "passed"
+    }
+  ],
+  "python_syntax": "passed",
+  "active_readme_local_links": "passed"
+}

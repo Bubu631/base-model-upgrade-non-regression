@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "name": "digits_balanced_scratch",
+  "description": "Run the fixed balanced path into a new directory; checks incumbents against the delivered selective checkpoints",
+  "historical_status": "New execution convenience profile; original runs used the unchanged scripts and recorded manifests, not this JSON.",
+  "commands": [
+    [
+      "{python}",
+      "experiments/digits_balanced.py",
+      "--output",
+      "runs/digits_balanced"
+    ]
+  ]
+}

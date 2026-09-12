@@ -1,0 +1,7 @@
+# Frozen CSV, JSON, LaTeX and source hashes must survive checkout byte-for-byte.
+* -text
+*.pdf binary
+*.npz binary
+*.png binary
+*.zip binary
+*.gz binary

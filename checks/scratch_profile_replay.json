@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "scope": "Standalone profile dispatch and bounded retraining check; original recorded files unchanged. These replay outputs are under ignored runs/, not substituted for historical evidence.",
+  "comparisons": [
+    {
+      "path": "selective",
+      "csv_bytes_and_npz_arrays_match_original": true,
+      "verified_files": [
+        "digits_certification.csv",
+        "digits_search.csv",
+        "digits_seed_1701.npz",
+        "digits_seed_1702.npz",
+        "digits_seed_1703.npz",
+        "digits_seed_1704.npz",
+        "digits_seed_1705.npz",
+        "digits_slices.csv",
+        "digits_summary.csv",
+        "digits_training_loss.csv"
+      ]
+    },
+    {
+      "path": "balanced",
+      "csv_bytes_and_npz_arrays_match_original": true,
+      "verified_files": [
+        "digits_certification.csv",
+        "digits_search.csv",
+        "digits_seed_1701.npz",
+        "digits_seed_1702.npz",
+        "digits_seed_1703.npz",
+        "digits_seed_1704.npz",
+        "digits_seed_1705.npz",
+        "digits_slices.csv",
+        "digits_summary.csv",
+        "digits_training_loss.csv"
+      ]
+    }
+  ]
+}

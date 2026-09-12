@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "source_package_compiles_in_empty_directory": true,
+  "compiled_text_byte_identical_to_delivered_pdf": true,
+  "pages": 21,
+  "latex_warnings": [],
+  "source_zip_sha256": "c23d61042b583e54b8b150e4a4de75ac5528876f593b4645736ce4b09255cef8",
+  "paper_pdf_sha256": "4abb50f8b167b5ebb887a1fecdc6f880a557af46c10e021e2b1db538e6349bf1"
+}

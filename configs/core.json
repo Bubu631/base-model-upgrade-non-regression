@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "name": "core",
+  "description": "Repeat the recorded synthetic trials; overwrites synthetic result and figure files",
+  "historical_status": "New execution convenience profile; original runs used the unchanged scripts and recorded manifests, not this JSON.",
+  "commands": [
+    [
+      "{python}",
+      "experiments/base_upgrade.py",
+      "--calibration-trials",
+      "20000",
+      "--search-trials",
+      "4000",
+      "--seed",
+      "20260911"
+    ]
+  ]
+}
