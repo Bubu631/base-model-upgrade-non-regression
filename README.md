@@ -104,4 +104,4 @@ The `papers/base_upgrade` path is retained to preserve the original scripts and 
 
 ## Citation and research status
 
-Use [CITATION.cff](CITATION.cff) or [citations.bib](citations.bib). The manuscript bibliography is separately available as [references.bib](papers/base_upgrade/references.bib). No DOI, arXiv identifier, conference acceptance, production deployment benefit, or new blanket license is inferred from these artifacts. The paper includes its AI-assistance disclosure and detailed evidence limitations; third-party datasets and formatting files retain their applicable terms.
+Use [CITATION.cff](CITATION.cff) or [citations.bib](citations.bib). The manuscript bibliography is separately available as [references.bib](papers/base_upgrade/references.bib). 
